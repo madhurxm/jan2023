@@ -1,0 +1,28 @@
+table{
+    border-radius: 1cm;
+    border-style: double;
+    padding: 1.5cm;
+    
+}
+td{
+    text-align:left; 
+}
+#col2{
+    width: 200px;
+}
+colgroup:nth-child(even){
+    width: 10cm;
+    display:inline;
+    background-color: aqua;
+}
+
+#submit {
+	background: #21232473;
+	color: rgb(0, 0, 0);
+    border-radius: 5em;
+    border-style: double;
+    border-spacing: 10em;
+	
+	font: bold15px arial,sans-serif;
+	
+}

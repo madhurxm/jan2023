@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+      /* Add your styles for the invoice here */
+      .invoice-container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 5px #ccc;
+      }
+      .invoice-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        
+      }
+      .invoice-header h2 {
+        font-size: 24px;
+      }
+      .invoice-header h3 {
+        font-size: 18px;
+      }
+      .invoice-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      .invoice-table th, .invoice-table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      .invoice-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+      }
+      .invoice-footer p {
+        font-size: 18px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="invoice-container">
+      <div class="invoice-header">
+        <h2>Company Name</h2>
+        <h3>Invoice #123</h3>
+      </div>
+      <table class="invoice-table">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Product 1</td>
+            <td>2</td>
+            <td>$10</td>
+            <td>$20</td>
+          </tr>
+          <tr>
+            <td>Product 2</td>
+            <td>1</td>
+            <td>$15</td>
+            <td>$15</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="invoice-footer">
+        <p>Total: $35</p>
+      </div>
+    </div>
+  </body>
+</html>
